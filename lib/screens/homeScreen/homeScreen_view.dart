@@ -273,7 +273,7 @@ class HomeScreenView extends StatelessWidget {
                         width: 20,
                       ),
                       const SizedBox(
-                        width: 10,
+                        width: 15,
                       ),
                       const Text(
                         'Log Out',
