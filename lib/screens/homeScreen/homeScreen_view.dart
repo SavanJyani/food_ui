@@ -229,7 +229,7 @@ class HomeScreenView extends StatelessWidget {
                     children: [
                       Icon(
                         Icons.sports_basketball_outlined,
-                        size: 30,
+                        size: 25,
                         color: Colors.black87,
                       ),
                       SizedBox(
@@ -237,19 +237,19 @@ class HomeScreenView extends StatelessWidget {
                       ),
                       Text(
                         'Our Website',
-                        style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: Color(0xff212121), fontFamily: 'Montserrat'),
+                        style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: Color(0xff212121), fontFamily: 'Montserrat'),
                       ),
                     ],
                   ),
                 ),
-                PopupMenuDivider(),
+                const PopupMenuDivider(),
                 const PopupMenuItem(
                   value: 1,
                   child: Row(
                     children: [
                       Icon(
                         Icons.mail_outline,
-                        size: 30,
+                        size: 25,
                         color: Colors.black,
                       ),
                       SizedBox(
@@ -257,12 +257,12 @@ class HomeScreenView extends StatelessWidget {
                       ),
                       Text(
                         'Contact Us',
-                        style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: Color(0xff212121), fontFamily: 'Montserrat'),
+                        style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: Color(0xff212121), fontFamily: 'Montserrat'),
                       ),
                     ],
                   ),
                 ),
-                PopupMenuDivider(),
+                const PopupMenuDivider(),
                 PopupMenuItem(
                   value: 2,
                   child: Row(
@@ -277,19 +277,19 @@ class HomeScreenView extends StatelessWidget {
                       ),
                       const Text(
                         'Log Out',
-                        style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: Color(0xff212121), fontFamily: 'Montserrat'),
+                        style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: Color(0xff212121), fontFamily: 'Montserrat'),
                       ),
                     ],
                   ),
                 ),
-                PopupMenuDivider(),
+                const PopupMenuDivider(),
                 const PopupMenuItem(
                   value: 3,
                   child: Row(
                     children: [
                       Icon(
                         Icons.delete_outline_outlined,
-                        size: 30,
+                        size: 25,
                         color: Color(0xffEA2828),
                       ),
                       SizedBox(
@@ -297,7 +297,7 @@ class HomeScreenView extends StatelessWidget {
                       ),
                       Text(
                         'Delete Account',
-                        style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: Color(0xffEA2828), fontFamily: 'Montserrat'),
+                        style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: Color(0xffEA2828), fontFamily: 'Montserrat'),
                       ),
                     ],
                   ),
