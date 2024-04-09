@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
       navigatorKey: StackedService.navigatorKey,
       onGenerateRoute: StackedRouter().onGenerateRoute,
       initialRoute: "/",
-      //home: SearchItemScreenView(),
     );
   }
 }
